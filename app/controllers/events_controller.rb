@@ -33,7 +33,7 @@ def destroy
 end 
 
 def index
-	@events = Event.all
+	$events = Event.all
 end
 
 

@@ -3,23 +3,9 @@
 
 <h1>Liste des événements</h1>   
   <h4><%= link_to "Ajoute un événement!", new_event_path, class: "btn btn-lg btn-primary" %></h4>
-
-
-
-
-
-
-
-
- 
- 
-
-
-
-
  <div class="container">
   <table class="table">
-<% @events.each do |event| %>
+<% $events.each do |event| %>
       <tr>
         <th>Description</th>
         <th>Date</th>
